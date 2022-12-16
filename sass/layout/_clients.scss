@@ -1,0 +1,48 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.cliens-title {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.cliens-list {
+    display: flex;
+    justify-content: center;
+}
+
+.cliens-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.cliens-link {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cliens-link:focus,
+.cliens-link:hover {
+    border: 1px solid #2196F3;
+}
+
+.cliens-icon {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cliens-link:focus .cliens-icon,
+.cliens-link:hover .cliens-icon {
+    fill: #2196F3;
+}
