@@ -30,19 +30,17 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cliens-link:focus,
-.cliens-link:hover {
-    border: 1px solid #2196F3;
+    &:focus,
+        &:hover {
+            border: 1px solid #2196F3;
+        }
 }
 
 .cliens-icon {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cliens-link:focus .cliens-icon,
-.cliens-link:hover .cliens-icon {
-    fill: #2196F3;
+    .cliens-link:focus &,
+        .cliens-link:hover & {
+            fill: #2196F3;
+        }
 }
